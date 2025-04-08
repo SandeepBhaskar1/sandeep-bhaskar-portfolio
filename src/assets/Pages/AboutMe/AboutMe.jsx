@@ -17,7 +17,7 @@ const AboutMe = () => {
           <p>I specialize in crafting websites and applications that prioritize performance and accessibility.
              Whether it’s writing clean, efficient code, or designing intuitive user interfaces.
              I aim to deliver high-quality solutions that meet both user needs and business goals.
-             I’m proficient in a variety of technologies, including HTML, CSS, JavaScript, React, and Node.js on the front end, and Java, and databases like MongoDB and MySQL on the back end.
+             I’m proficient in a variety of technologies, including HTML, CSS, JavaScript, and React for the front end, and Node.js for the back end, along with databases like MongoDB and MySQL.
              I’m also comfortable working with version control tools like Git and platforms like GitHub for seamless collaboration.
 
              My approach to development is heavily influenced by my dedication to user experience.
@@ -25,15 +25,8 @@ const AboutMe = () => {
              I focus on creating responsive designs that adapt flawlessly to different screen sizes and devices, ensuring that users have a consistent experience whether they’re on a mobile phone,
              tablet, or desktop.</p>
         </div>
-      </div>
-      <div className="quick-bits">
-          <h4>Finally some quick bits about me,</h4>
-          <ul>
-            <li>B.Tech in Civil Engineering</li>
-            <li>Avd Learner</li>
-            <li>Open to freelance</li>
-          </ul>
         </div>
+
     </div>
   );
 }

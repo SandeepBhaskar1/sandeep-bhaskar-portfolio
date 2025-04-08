@@ -3,8 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 255px;
+    margin-top: 30px;
     margin-bottom: 0px;
+    height: 100vh;
 }
 
 .skills-header header {
@@ -52,3 +53,15 @@
     margin-bottom: 10px; 
 }
 
+
+@media (max-width: 1024px) {
+    .skills-container {
+        margin-top: 350px;
+    }
+}
+
+@media (max-width: 440px) {
+    .skills-container {
+        margin-top: 950px;
+    }
+}

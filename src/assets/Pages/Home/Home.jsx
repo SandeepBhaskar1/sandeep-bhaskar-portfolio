@@ -19,8 +19,10 @@ const Home = () => {
     <p>I'm a focused full-stack developer who is passionate about creating seamless digital experiences.<br/> I specialize on creating solutions that are not only quick and responsive, but also accessible and visually appealing,<br/> resulting in an amazing user experience across all platforms.
     </p>
     <br />
+    <div className="loc-avai">
     <p className='address-text'><FontAwesomeIcon icon={faLocationDot} className='location-icon' />Chikmagalur, Karnataka, India </p>
     <p className='available-text'><img src={available} alt="available" className='available-img'/> Available for new projects</p>
+    </div>
 </div>
 
 <div className="my-image">
