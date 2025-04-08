@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import available from '../../../../src/images/available.png';
 import myimage from '../../../../src/images/my-photo.jpeg';
-import AboutMe from '../AboutMe/AboutMe';
 import './Home.css';
 
 const Home = () => {
