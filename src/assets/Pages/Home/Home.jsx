@@ -23,6 +23,14 @@ const Home = () => {
     <p className='address-text'><FontAwesomeIcon icon={faLocationDot} className='location-icon' />Chikmagalur, Karnataka, India </p>
     <p className='available-text'><img src={available} alt="available" className='available-img'/> Available for new projects</p>
     </div>
+
+    <div className="social">
+      <a href="https://www.facebook.com/ssandeepachari/"><img className='facebook' src="./facebook.png" alt="" /></a>
+      <a href="https://www.instagram.com/sandy_achari/"><img className='insta' src="./insta.avif" alt="" /></a>
+      <a href="https://www.linkedin.com/in/sandeep-bhaskar-6b054a1b8/"><img className='linkedin' src="./linkedin.png" alt="" /></a>
+      <a href="https://github.com/SandeepBhaskar1"><img className='github' src="./github-mark.png" alt="" /></a>
+
+    </div>
 </div>
 
 <div className="my-image">

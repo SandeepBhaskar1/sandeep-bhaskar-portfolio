@@ -82,6 +82,10 @@
 
 @media (max-width: 768px) {
 
+    .aboutme-container {
+        margin-top: 0px;
+    }
+
     .aboutme {
         display: flex;
         flex-direction: column;
@@ -95,10 +99,21 @@
         align-items: center;
     }
 
+    .header header {
+        text-align: center;
+    }
+
     .info {
         max-width: 600px;
         width: 470px ;
         justify-content: center;
         align-items: center;
     }
+}
+
+@media (max-width: 468px) {
+    .aboutme-container {
+        margin-top: -200px;
+    }
+
 }

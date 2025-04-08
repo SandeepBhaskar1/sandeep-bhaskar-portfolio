@@ -26,7 +26,7 @@ const Navbar = () => {
 
       <div className="nav-right">
         <a href="#about" className='li-component' onClick={(e) => handleScroll(e, '#about')}>About</a>
-        <a href="#work" className='li-component' onClick={(e) => handleScroll(e, '#work')}>Work</a>
+        <a href="#projects" className='li-component' onClick={(e) => handleScroll(e, '#projects')}>Projects</a>
         <a href="#contact" className='li-component' onClick={(e) => handleScroll(e, '#contact')}>Contact</a>
         <a href="#" className='li-component'><ThemeSwitcher /></a>
         <a href={Resume} className='cv-link' download>

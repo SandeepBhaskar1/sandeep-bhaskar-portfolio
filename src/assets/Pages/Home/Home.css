@@ -1,5 +1,5 @@
 .home {
-    padding-top: 150px;
+    padding-top: 0px;
     height: 100vh;
 }
 
@@ -8,7 +8,7 @@
     justify-content: space-between;
     margin-left: auto; 
     margin-right: auto; 
-    margin-top: 20px;
+    margin-top: 100px;
     padding-top: 100px; 
     padding-left: 20px; 
     padding-right: 20px;
@@ -78,10 +78,37 @@ p {
     box-shadow: 20px 5px 30px rgba(99, 99, 99, 0.5); 
 }
 
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.social img {
+    width: 35px;
+}
+
+.social .linkedin {
+    width: 25px;
+    height: 30px;
+}
+
+.social .github {
+    width: 30px;
+    height: 30px;
+}
+
 @media (max-width: 768px) {
 
     .home {
         margin-top: 7.5rem;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
     }
 
     .main-page-wrapper {
@@ -134,7 +161,7 @@ p {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 468px) {
     h1 {
         font-size: 1.75rem;
     }
@@ -159,5 +186,9 @@ p {
 
     .info {
         width: 300px;
+    }
+
+    .home {
+        margin-top: 200px;
     }
 }
