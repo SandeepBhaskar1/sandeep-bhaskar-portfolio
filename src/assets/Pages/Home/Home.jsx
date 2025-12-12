@@ -1,10 +1,8 @@
-import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import available from '../../../../src/images/available.png';
 import myimage from '../../../../src/images/my-photo.jpeg';
-import AboutMe from '../AboutMe/AboutMe';
 import './Home.css';
 
 const Home = () => {
@@ -15,8 +13,8 @@ const Home = () => {
     </div>
     <div className="main-page-wrapper">
 <div className="main-page">
-    <h1>Hi, I'm Sandeep </h1>
-    <p>I'm a focused full-stack developer who is passionate about creating seamless digital experiences.<br/> I specialize on creating solutions that are not only quick and responsive, but also accessible and visually appealing,<br/> resulting in an amazing user experience across all platforms.
+    <h1>Hi, I&apos;m Sandeep </h1>
+    <p>I&apos;m a focused full-stack developer who is passionate about creating seamless digital experiences.<br/> I specialize on creating solutions that are not only quick and responsive, but also accessible and visually appealing,<br/> resulting in an amazing user experience across all platforms.
     </p>
     <br />
     <div className="loc-avai">
