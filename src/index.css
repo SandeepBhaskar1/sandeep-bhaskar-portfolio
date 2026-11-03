@@ -1,7 +1,3 @@
 html {
-<<<<<<< HEAD
-  scroll-behavior: smooth; 
-=======
-    scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
->>>>>>> origin/master
+  scroll-behavior: smooth;
 }
