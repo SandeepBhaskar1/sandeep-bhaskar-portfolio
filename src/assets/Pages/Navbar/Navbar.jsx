@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 import React from 'react';
 import logo from '/logo.png';
 import './Navbar.css';
 import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher';
 import Resume from '../../../CV/Sandeep_Bhaskar_Resume.pdf';
+=======
+import logo from '/logo.png';
+import './Navbar.css';
+import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher';
+import Resume from '../../../CV/Sandeep-Fullstack-Developer.pdf';
+>>>>>>> origin/master
 
 const Navbar = () => {
 
